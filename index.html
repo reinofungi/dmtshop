@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280">
+    <title>DMT SHOP-PREMIUM</title>
+    <meta name="description"
+        content="DMT Shop - Productos Premium: DMT Cristales, DMT Xanga Hierbas, Destilado de DMT Vaporizador. Envío seguro a Estados Unidos y toda Colombia. Worldwide shipping.">
+    <meta name="keywords" content="DMT Shop, Buy DMT USA, DMT Colombia, DMT Cristales, Xanga, DMT Vape, Buy DMT Online">
+    <link rel="icon" type="image/jpeg" href="assets/dmtlogo.jpg">
+
+    <!-- Regional & Geo Tags -->
+    <meta name="geo.region" content="US;CO">
+    <meta name="geo.placename" content="United States;Colombia">
+    <link rel="alternate" hreflang="en" href="https://dmtshopvisions.com/">
+    <link rel="alternate" hreflang="es" href="https://dmtshopvisions.com/">
+    <link rel="alternate" hreflang="x-default" href="https://dmtshopvisions.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dmtshopvisions.com/">
+    <meta property="og:title" content="DMT SHOP-PREMIUM | Official Store">
+    <meta property="og:description"
+        content="Pure N,N-DMT crystals and premium distillate. Professional shipping to USA and Colombia. 100% Secure.">
+    <meta property="og:image" content="assets/herovision.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dmtshopvisions.com/">
+    <meta property="twitter:title" content="DMT SHOP-PREMIUM | Official Store">
+    <meta property="twitter:description"
+        content="Pure N,N-DMT crystals and premium distillate. Professional shipping to USA and Colombia. 100% Secure.">
+    <meta property="twitter:image" content="assets/herovision.jpg">
+
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "DMT Cristales",
+            "description": "Pure N,N-DMT crystals of the highest concentration.",
+            "offers": {
+              "@type": "Offer",
+              "price": "100000",
+              "priceCurrency": "COP",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Product",
+            "name": "DMT Xanga Hierbas",
+            "description": "A sacred blend of herbs and DMT for a smoother transition.",
+            "offers": {
+              "@type": "Offer",
+              "price": "100000",
+              "priceCurrency": "COP",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Product",
+            "name": "Destilado de DMT Vaporizador",
+            "description": "Premium liquid distillate for vaporizers. High-potency extract.",
+            "offers": {
+              "@type": "Offer",
+              "price": "150000",
+              "priceCurrency": "COP",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        }
+      ]
+    }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@300;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo">DMT <span class="highlight">SHOP</span></div>
+        <ul class="nav-links">
+            <li><a href="#features" data-i18n="nav-products">Products</a></li>
+            <li><a href="#crypto-payment" data-i18n="nav-payments">Payments</a></li>
+            <li><a href="https://t.me/DMTshopvisions" target="_blank" data-i18n="nav-contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <select id="lang-switcher" class="lang-select">
+                <option value="en">EN</option>
+                <option value="es">ES</option>
+            </select>
+            <select id="curr-switcher" class="lang-select">
+                <option value="COP">COP</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="MXN">MXN</option>
+            </select>
+            <button class="cart-btn" onclick="toggleCart()">
+                <span data-i18n="btn-order">Order Now</span>
+                <span id="cart-badge" class="badge">0</span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Parallax Hero with Original Content -->
+        <section id="hero" class="parallax-wrapper">
+            <div class="parallax-layer layer-bg"></div>
+            <div class="parallax-layer layer-stars"></div>
+            <div class="parallax-layer layer-nebula"></div>
+
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="reveal" data-i18n="hero-title-1">DMT SHOP</span>
+                    <span class="reveal highlight" data-i18n="hero-title-2">PREMIUM</span>
+                </h1>
+                <p class="hero-subtitle" data-i18n="hero-subtitle">Experimenta la máxima expansión de la conciencia con
+                    nuestros productos naturales diseñado para una experiencia segura y transformadora.
+                </p>
+                <div class="reveal" style="margin-top: 2rem;">
+                    <p class="highlight" data-i18n="hero-shipping" style="font-size: 1.1rem; font-weight: 500;">Envíos a
+                        todo el mundo</p>
+                </div>
+                <div class="reveal" style="margin-top: 1.5rem;">
+                    <a href="#features" class="btn-primary" data-i18n="hero-btn">Ver Producto</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- DMT Productos Section -->
+        <section id="features" class="features-section">
+            <div class="section-header">
+                <h2 data-i18n="products-title">
+                    <img src="assets/dmtlogo.jpg" class="title-logo" alt="logo">
+                    DMT <span class="highlight">PRODUCTS</span>
+                    <img src="assets/dmtlogo.jpg" class="title-logo" alt="logo">
+                </h2>
+                <p data-i18n="products-subtitle">SHOP de DMT para una profunda exploración cósmica</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card glass product-card" id="card-1">
+                    <div class="product-image-container">
+                        <video class="product-img-parallax" autoplay loop muted playsinline aria-label="DMT Cristales">
+                            <source src="assets/grokvideoa.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h3 data-i18n="prod-1-title">DMT Cristales</h3>
+                    <p data-i18n="prod-1-desc">Pure N,N-DMT crystals of the highest concentration. Perfect for visionary
+                        clarity and deep transcendence.</p>
+                    <div class="price" data-base-price="100000">100.000 <span class="currency">COP</span></div>
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus" onclick="updateQty(this, -1)">-</button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn plus" onclick="updateQty(this, 1)">+</button>
+                    </div>
+                    <button class="buy-btn" onclick="addToCart(1)" data-i18n="btn-buy">Buy Now</button>
+                </div>
+                <div class="feature-card glass product-card" id="card-2">
+                    <div class="product-image-container">
+                        <video class="product-img-parallax" autoplay loop muted playsinline
+                            aria-label="DMT Xanga Hierbas">
+                            <source src="assets/grokvideoc.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h3 data-i18n="prod-2-title">DMT Xanga Hierbas</h3>
+                    <p data-i18n="prod-2-desc">A sacred blend of herbs and DMT for a smoother, more grounded transition
+                        into hyperspace.</p>
+                    <div class="price" data-base-price="100000">100.000 <span class="currency">COP</span></div>
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus" onclick="updateQty(this, -1)">-</button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn plus" onclick="updateQty(this, 1)">+</button>
+                    </div>
+                    <button class="buy-btn" onclick="addToCart(2)" data-i18n="btn-buy">Buy Now</button>
+                </div>
+                <div class="feature-card glass product-card" id="card-3">
+                    <div class="product-image-container">
+                        <video class="product-img-parallax" autoplay loop muted playsinline
+                            aria-label="Destilado de DMT Vaporizador">
+                            <source src="assets/grokvideob.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h3 data-i18n="prod-3-title">Destilado de DMT Vaporizador</h3>
+                    <p data-i18n="prod-3-desc">Premium liquid distillate for vaporizers. High-potency extract for
+                        precise and portable experiences.</p>
+                    <div class="price" data-base-price="150000">150.000 <span class="currency">COP</span></div>
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus" onclick="updateQty(this, -1)">-</button>
+                        <span class="qty-value">1</span>
+                        <button class="qty-btn plus" onclick="updateQty(this, 1)">+</button>
+                    </div>
+                    <button class="buy-btn" onclick="addToCart(3)" data-i18n="btn-buy">Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Specifications and Reviews removed by user request -->
+
+        <!-- Ready to Transform CTAs -->
+
+    </main>
+
+    <section id="crypto-payment" class="cta-section">
+        <div class="parallax-layer payment-bg-layer"></div>
+        <div class="cta-card glass reveal">
+            <h2 style="text-align: center; margin-bottom: 2rem;" data-i18n="cta-crypto-title">Select a cryptocurrency
+                and make the payment...</h2>
+
+            <div class="crypto-display-grid">
+                <!-- Bitcoin -->
+                <div class="crypto-payment-card">
+                    <img src="assets/qrbtcnew.png" class="qr-simple" alt="BTC QR">
+                    <div class="crypto-info">
+                        <span class="crypto-name">Bitcoin <small data-i18n="crypto-btc-net">BTC Network</small></span>
+                        <div class="wallet-mini">1KUpRdQi9QYEJiXKcNkKyfE6RKJJeJ4Jyb</div>
+                        <button class="copy-small" onclick="copyAddr(this, 'BTC')">
+                            <span data-i18n="btn-copy">Copy</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Ethereum -->
+                <div class="crypto-payment-card">
+                    <img src="assets/qrethnew.png" class="qr-simple" alt="ETH QR">
+                    <div class="crypto-info">
+                        <span class="crypto-name">Ethereum <small data-i18n="crypto-eth-net">ERC20
+                                Network</small></span>
+                        <div class="wallet-mini">0xb8d6d8980295b8a921314c9e6dfb4b353bba0ab1</div>
+                        <button class="copy-small" onclick="copyAddr(this, 'ETH')">
+                            <span data-i18n="btn-copy">Copy</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- USDT -->
+                <div class="crypto-payment-card">
+                    <img src="assets/qrusdtnew.png" class="qr-simple" alt="USDT QR">
+                    <div class="crypto-info">
+                        <span class="crypto-name">USDT <small data-i18n="crypto-usdt-net">TRC20 Network</small></span>
+                        <div class="wallet-mini">TDxuWCtzC4qY6uHqxuBqgMmUviWyWe5dqt</div>
+                        <button class="copy-small" onclick="copyAddr(this, 'USDT')">
+                            <span data-i18n="btn-copy">Copy</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="https://t.me/DMTshopvisions" class="btn-telegram" target="_blank"
+                    data-i18n="btn-telegram">Contact Us on Telegram</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-col brand">
+                    <div class="logo">DMT <span class="highlight">SHOP</span></div>
+                    <p class="footer-desc" data-i18n="footer-desc">Exploración profunda de la conciencia a través de
+                        productos naturales de grado premium. Tu viaje hacia el hiperespacio comienza aquí.</p>
+                </div>
+                <!-- Links Column -->
+                <div class="footer-col links">
+                    <h4 data-i18n="footer-links-title">Quick Links</h4>
+                    <ul>
+                        <li><a href="#features" data-i18n="nav-products">Products</a></li>
+                        <li><a href="#crypto-payment" data-i18n="footer-payments">Payments</a></li>
+                        <li><a href="https://t.me/DMTshopvisions" target="_blank" data-i18n="nav-support">Support</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Contact Column -->
+                <div class="footer-col contact">
+                    <h4 data-i18n="footer-contact-title">Contact Us</h4>
+                    <p data-i18n="footer-contact-text">Official Telegram Channel for orders and inquiries:</p>
+                    <a href="https://t.me/DMTshopvisions" class="btn-telegram footer-btn" target="_blank"
+                        data-i18n="btn-telegram">Telegram Shop</a>
+                </div>
+            </div>
+
+            <!-- Shipping Section -->
+            <div class="footer-shipping">
+                <p data-i18n="footer-shipping">Logística y Envíos Globales</p>
+                <div class="logo-grid-container">
+                    <!-- UPS Official Logo -->
+                    <img src="assets/upslogonew.png" class="shipping-logo colored" alt="UPS">
+                    <!-- FedEx Official Logo -->
+                    <img src="assets/fedexlogonew.png" class="shipping-logo colored" alt="FedEx">
+                    <!-- DHL Official Logo -->
+                    <img src="assets/dhllogonew.png" class="shipping-logo colored" alt="DHL">
+                    <!-- USPS Official Logo -->
+                    <img src="assets/uspslogo.png" class="shipping-logo colored" alt="USPS">
+                </div>
+            </div>
+
+            <!-- Bottom Section -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-flex">
+                    <p class="copyright">&copy; 2026 DMT Shop Visions. <span data-i18n="footer-rights">All Rights
+                            Reserved.</span></p>
+                    <p class="disclaimer" data-i18n="footer-disclaimer">Important: Our products are for research and
+                        botanical study only. Safety first.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://t.me/DMTshopvisions" class="telegram-float" target="_blank">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M20.665 3.717l-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 1.589 4.86c.191.525.097.733.645.733.424 0 .611-.193.845-.42l2.308-2.24 4.801 3.547c.883.488 1.517.236 1.737-.818l3.141-14.792c.322-1.291-.497-1.878-1.716-1.389z" />
+        </svg>
+    </a>
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content glass">
+            <div class="modal-header">
+                <h2 data-i18n="cart-title">Tu Pedido</h2>
+                <button class="close-modal" onclick="toggleCart()">&times;</button>
+            </div>
+            <div id="cart-items" class="cart-items-container">
+                <!-- Se llena dinámicamente -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span data-i18n="cart-total-label">Total:</span>
+                    <span id="cart-total-value">0</span> <span class="currency">COP</span>
+                </div>
+                <button class="buy-btn checkout-btn" onclick="checkoutTelegram()" data-i18n="btn-checkout">Enviar Pedido
+                    a Telegram</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
